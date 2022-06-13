@@ -3,10 +3,11 @@
 ## 🙋‍♀️ Wat is Common Gateway
 
 ## 👩‍💻 Useful resources 
-- Demo-omgeving: [OpenCatalogi.nl](https://opencatalogi.nl)
+- Demo-omgeving: [PLAATS HIER NAAM + URL](https://opencatalogi.nl)
 
-## Datamodel
-Het datamodel van open catalogi is gebaseerd op Public Code, een Europees standaard voor het beschrijven van opensource-projecten. Dit model vertaald naar een OpenAPI beschrijving in lijn met de NL API Strategie. Deze is standaard is tevens aangevuld met elementen uit de huidige Common Ground catalogus en developer.overheid om te komen tot een overkoepeld datamodel voor open source in Nederland.
+## Common Gateway
+
+De Common Gateway is een kant-en-klare oplossing voor ontwikkelaars voor lokale ontwikkel- of productieomgevingen. Het voorziet een no-nonsense AJAX-engine voor onder elke moderne Progressive Web App. Ontwikkelaars kunnen de Gateway gebruiken om door de complexiteit van een microservice-ecosysteem te navigeren. De Gateway is ontwikkelt vanuit het oogpunt van een applicatie of om een naadloze en moeiteloze, hoogwaardige klantervaring binnen en tussen contactkanalen af te handelen.
 
 ## Open Source
 Als project geloven wij in open source en open community. We kiezen er daarom bewust voor ons project open en eerlijk te draaien. Naast de code zijn ook alle user stories en de roadmap publiek toegankelijk. Overheden en leveranciers wordt gevraagd hier kennis van te nemen en actief bij te dragen.
