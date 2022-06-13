@@ -1,30 +1,29 @@
-# CONTRIBUTING
+# CONTRIBUTION
 
-Hoe bijdragen?
-Wij zijn blij dat je dit leest, want elk goed open source project kan altijd vrijwillige ontwikkelaars gebruiken voor het project.
+How to contribute?
+We're glad you're reading this because any good open source project can always use volunteers for the project.
 
-Als je dat nog niet hebt gedaan, kom ons dan vinden in onze Slack(VOORBEELD). We willen dat je werkt aan dingen waar je enthousiast over bent.
+If you haven't already, come and find us in our Slack(EXAMPLE). We want you to work on things you're passionate about.
 
-Hier zijn enkele belangrijke bronnen:
+Here are some essential resources:
 
 COMMON GROUND LINK
 
+## Report changes
 
-## Wijzigingen doorgeven
-Stuur een GitHub Pull Request met een duidelijke lijst van wat je hebt gedaan (lees meer over pull requests).  Volg de Public Code codeerconventies 
-(hieronder) en zorg ervoor dat al je commits atomair zijn (één functie per commit).
+Send a GitHub Pull Request with a clear list of what you've done (read more about pull requests). Follow the Public Code coding conventions.(below) and make sure all your commits are atomic (one function per commit).
 
-Schrijf altijd een duidelijk logbericht voor je commits. Eenregelige berichten zijn prima voor kleine wijzigingen, maar grotere wijzigingen zouden 
-er idealiter  uit moeten zien:
+Always write a clear log message for your commits. One-line messages are fine for small changes, but more significant changes should be
+should ideally look like:
 
-`$ git commit -m "Een korte samenvatting van de commit`
- Een paragraaf die beschrijft wat er is veranderd en wat de impact is."
+`$ git commit -m "A short summary of the commit`
 
+ A paragraph that describes what has changed and what the impact is."
 
-## Codeerconventies
+## Coding conventions
 
-Dit is open source-software. Denk aan de mensen die de code zullen lezen en zorg ervoor dat deze er goed uitziet voor hen. 
+This is open-source software. Think about the people reading the code and make sure it looks good to them.
 
-Verder hanteren wij de [Public Code-standaarden](https://publiccode.net/)
+We also use the [Public Code standards](https://publiccode.net/)
 
-Bedankt, Conduction
+Thank you Conduction
