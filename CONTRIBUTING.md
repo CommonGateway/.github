@@ -1,5 +1,5 @@
 Hoe bijdragen?
-Ik ben erg blij dat je dit leest, want elk goed open source project kan altijd vrijwillige ontwikkelaars gebruiken voor het project.
+Wij zijn blij dat je dit leest, want elk goed open source project kan altijd vrijwillige ontwikkelaars gebruiken voor het project.
 
 Als je dat nog niet hebt gedaan, kom ons dan vinden in onze Slack(VOORBEELD). We willen dat je werkt aan dingen waar je enthousiast over bent.
 
