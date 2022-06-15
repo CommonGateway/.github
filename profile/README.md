@@ -1,23 +1,30 @@
-# Welkom! 👋
+# Welcome
 
-## 🙋‍♀️ Wat is Common Gateway
+## 🙋‍♀️ What is Common Gateway
 
-## 👩‍💻 Useful resources 
-- Demo-omgeving: [OpenCatalogi.nl](https://opencatalogi.nl)
+## Useful resources
 
-## Datamodel
-Het datamodel van open catalogi is gebaseerd op Public Code, een Europees standaard voor het beschrijven van opensource-projecten. Dit model vertaald naar een OpenAPI beschrijving in lijn met de NL API Strategie. Deze is standaard is tevens aangevuld met elementen uit de huidige Common Ground catalogus en developer.overheid om te komen tot een overkoepeld datamodel voor open source in Nederland.
+- Demo environment: [Common Gateway]()
+
+## The Common Gateway
+
+is a turnkey developer solution for local development or production environments. It provides a no-nonsense AJAX engine for any modern Progressive Web App. Developers can use the Gateway to navigate the complexities of a microservice ecosystem. The Gateway is developed from an application point of view to handle a seamless, effortless, high-quality customer experience within and across contact channels.
 
 ## Open Source
-Als project geloven wij in open source en open community. We kiezen er daarom bewust voor ons project open en eerlijk te draaien. Naast de code zijn ook alle user stories en de roadmap publiek toegankelijk. Overheden en leveranciers wordt gevraagd hier kennis van te nemen en actief bij te dragen.
 
-## Bijdragen
-Overheden en leveranciers kunnen op een aantal manieren bijdragen aan dit project
+As a project, we believe in open source and open community. We, therefore, consciously choose to run our project openly and honestly. In addition to the code, all user stories and the roadmap are publicly accessible. Governments and suppliers, please take note of this and contribute actively.
 
-- *Actief bijdragen aan discussies*.  Alle discussies van dit project worden gevoerd in de [discussie pagina](/orgs/OpenCatalogi/discussions) het staat iedereen vrij om discussie op te starten of hierin te participeren, maar de product owner neemt samen met de product steering group het eindbesluit. Eindbesluiten die niet tot user stories leiden worden vastgelegd in de [DESIGN.md](/OpenCatalogi/.github/blob/main/DESIGN.md).
-- *Participeren in de product steering group*. De product steering group overlegt tweewekelijks en stelt de [roadmap](/orgs/OpenCatalogi/projects/1/views/2) van het project vast.  Het is in principe voor alle overheden en leveranciers mogelijk om deel te nemen aan de product steering group, het eindoordeel over deelname ligt echter bij de product owner.  Als je het interessant vind om deel te nemen aan de product steering group kan je contact opnemen met ……
-- *Indienen van feature requests*. Iedereen kan feature request indienen, je hoeft hiervoor geen lid te zijn van de product steering group of te beschikken over ontwikkelcapaciteit.  Feature request worden besproken door de product steering group die bepaald of en waar ze op de [roadmap](/orgs/OpenCatalogi/projects/1/views/2) komen. Hierbij kan gevraagd worden om toelichting of een ureninschatting door leveranciers
-- *Bijdrage van code*. Het staat iedere partij vrij om code voor te dragen aan het project door middel van een pull request. Let er wel op dat het voordragen van code niet automatisch leidt tot het accepteren hiervan. Lees de contributing.md voor een beschrijving van het aanleverproces en daaraan verbonden eisen.
+## Contribute
+
+Governments and suppliers can contribute to this project in several ways.
+
+- *Actively contributing to discussions*. Discussions are held on the [discussion page](https://github.com/CommonGateway/.github/). Everyone is free to start a discussion or participate. Suggestions can be picked up by the Product Owner and may be implemted in a future version.
+
+- *Submission of feature requests*. Anyone can submit a feature request. You do not need to have development capacity. Feature requests are discussed and if accepted they will appear on the [roadmap]().
+You may be asked for an explanation or an estimate of hours by suppliers.
+
+- *Contribution of code*. Each party is free to submit code to the project by means of a pull request. Please note that submitting code does not automatically lead to acceptance. Read the [CONTRIBUTING.md](https://github.com/CommonGateway/.github/blob/main/CONTRIBUTING.md) for a description of the delivery process and associated requirements.
 
 ## Roadmap
-Dit project volgt een openbare roadmap, je kunt deze terug vinden onder het bijbehorende board. De roadmap heeft een indicatief karakter en er kunnen geen rechten aan worden ontleend. De product owner stelt in overleg met de product steering group de roadmap vast. Partijen die goede ideeën hebben over de roadmap wordt gevraagd deze aan te dragen. Zie daarvoor [“Bijdragen”](#bijdragen).
+
+This project follows a public roadmap, which you can find under the corresponding board. The roadmap is indicative in nature, and no rights can be derived from it. The product owner determines the roadmap. Parties that have good ideas about the roadmap are asked to submit them. See [“Contributions”](#contributions).
