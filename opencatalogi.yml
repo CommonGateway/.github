@@ -1,0 +1,6 @@
+- Name: Common Gateway
+- Description: Mijn org
+- Uses: 
+  - "https://github.com/CommonGateway/CoreBundle"
+- Supports:
+  - "https://github.com/CommonGateway/CoreBundle"
