@@ -44,7 +44,8 @@ Which will give us
    ]
 
 
-}```
+}
+```
 
 
 
@@ -93,7 +94,8 @@ Could be mapped like
    "mapping": {
        "status": "metadata.status.name"
    }
-}```
+}
+```
 
 To
 
@@ -133,7 +135,8 @@ Now the petstore decided that we would like to assign pets to an ille, there are
    "mapping": {
        "ille": "{{ random([green, blue , red]) }"
    }
-}```
+}
+```
 
 To turn this
 
