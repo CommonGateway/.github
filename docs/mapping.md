@@ -67,8 +67,8 @@ Rules are carried out as a `To <- From` pair. In this case, the `metadata.status
 
 > **Note**
 > - The key is ALWAY treated as a dot notation telling the service where to move the properties content to.
-- Mapping object MUST have a name, and SHOULD have a description
-- It is not necessary to declare every step of the array (e.g. metadata, metadata.status, metadata.status.name) just declaring the property where you want it will create the in between array key’s
+> - Mapping object MUST have a name, and SHOULD have a description
+> - It is not necessary to declare every step of the array (e.g. metadata, metadata.status, metadata.status.name) just declaring the property where you want it will create the in between array key’s
 
 
 Keep in mind that dot notations have no maximum depth, so on object like
@@ -159,37 +159,6 @@ into this
 }
 ```
 
-Ok, so let's put our mapping to the rescue!
-
-A mapping always consists of an array where the array keys are a dot notation of where we want something to go. And a value representing what we want to go there. That value is a string that may contain twig logic. In this twig logic, our original object is available as a variable. In this case we could do a mapping like
-
-```json
-{
-   "name": "A twig mapping",
-   "description": "For more complex mappings"
-   "mapping": {
-       "name": "name",
-       "description: "description",
-       "metadata.location": "{{ location }}",
-       "metadata.species": "{{ species }}"
-   }
-}
-```
-
-We would then end up wit a new object (after mapping) looking like
-
- ```json
-{
-    "id":"0d671e30-04af-479a-926a-5e7044484171",
-    "name":"The big white tree",
-    "description": "This is the tree that granny planted when she and gramps got married",
-    "metadata":{
-        "location":"Orvil’s farm",
-        "species":"Chestnut"
-    }
-}
-```
-
 > **Note**
 > Both dot-notation and twig-based mapping are valid to move value's around in an object. Dot-notation is preferred performance-wise.
 
@@ -220,7 +189,7 @@ With
        "metadata.species": "{{ species }}"
    }
 }
-
+ ```
 Would become 
 
  ```json
