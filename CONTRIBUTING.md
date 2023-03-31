@@ -50,17 +50,17 @@ When you send a PR, just make sure that:
 
 Fill in the following header from the pull request template:
 
-```markdown
-| Q             | A
-| ------------- | ---
-| Bug fix?      | yes/no
-| New feature?  | yes/no
-| BC breaks?    | no
-| Deprecations? | no
-| Tests pass?   | yes
-| Fixed tickets | #1234, #5678
-| License       | MIT
-| Doc PR        | api-platform/docs#1234
+```markdown|
+| Q             | A|
+| ------------- | ---|
+| Bug fix?      | yes/no|
+| New feature?  | yes/no|
+| BC breaks?    | no|
+| Deprecations? | no|
+| Tests pass?   | yes|
+| Fixed tickets | #1234, #5678|
+| License       | MIT|
+| Doc PR        | api-platform/docs#1234|
 
 Always write a clear log message for your commits. One-line messages are fine for small changes, but more significant changes should be
 should ideally look like:
@@ -97,7 +97,49 @@ Now force push to update your PR:
 git push --force
 ```
 
+
+## Writing User stories
+
+We user stories issues conform the  .. standard, meaning that the title MUST be written in the "As [a user persona], I want [to perform this action] so that [I can accomplish this goal].” format
+
+An user story SHOULD contain a short description of the desired application behavior (and if applicable the current application behavior)
+
+Additionally all issues should contain the following sections
+- Stakeholders: Stakeholders are individuals or groups that have an interest or concern in a product, project, or organization, and can affect or be affected by its actions or outcomes.
+- Tasks: An task is a specific problem or challenge that needs to be addressed, tracked, and resolved within an user story.
+- Acceptance criteria: Acceptance criteria are a set of clearly defined and measurable conditions that a product, feature, or user story must meet to be considered completed and accepted by the stakeholders.
+
+User stories MUST be sized in story points, 10 story points represent a single day of work (8 hours). An user story MAY NOT have a size greater then 10. User stories that take more then 1 day should be divided into several user stories and combined in an EPIC.
+
+## Writing Epics
+
+Epics MUST have a title and description, but unlike user stories the can be more generic and can describe either journeys or project parts
+
+Epics  MUST be sized in story points, 10 story points represent a single day of work (8 hours). An epic MAY NOT have a size smaller then 10. In that case it is an User Story.
+
+## Writing Task
+Task are small parts of work that are part of an user story, they should not 5 story points (4 hours of work) 
+
 ## Coding conventions
+All code should
+- Adhere to PSR-12 standards, we use [PHP Codesniffer](https://github.com/squizlabs/PHP_CodeSniffer) and [PHP Mess Detector](https://phpmd.org/) to check code for these standards.
+- All code is released under the [EUPL 1.2](https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12) license
+- The default author for code is Conduction BV <info@conduction.nl> but this may be changed if the code dosn't originate from the conduction organization.
+
+### Classes
+All classes must
+- Start with a docblock containing 
+  - the name of the class the reason it exists 
+  - tags for the author(@author), license(@license), documentatation (@see), bundle (@package), sementic version of codebase where the class was added (@since)
+- End with }//end class
+
+### Functions
+All functions must be
+- accompanied by a docblock
+- End with }//end (function name)
+- Business logic should be accompanied by inline code comments that explains what the business logics does.
+
+
 
 This is open-source software. Think about the people reading the code and make sure it looks good to them.
 
@@ -106,8 +148,6 @@ We also use the [Public Code standards](https://publiccode.net/)
 Thank you, the Common Gateway community!
 
 # License and Copyright Attribution
-
-When you open a Pull Request to the Common Gateway project, you agree to license your code under the [EUPL license](../LICENSE).
 
 Be sure to you have the right to do that (if you are a professional, ask your company)!
 

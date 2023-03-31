@@ -1,72 +1,86 @@
 # Mapping
 
-Mapping is the process of changing the structure of an object. For example, an object is either sent to or retrieved from an external source. This always follows in the Input -> mapping >- Output model. Mapping is beneficial when the source doesn't match the data model you want to use. You can use a mapping to describe the delta (difference) between two objects.
+Mapping is the process of changing the structure of an object. It's used to transform data when the source doesn't match the desired data model. Mapping is done by a series of mapping rules in a To <- From style. In simple mapping, the position of a value within an object is changed.
 
-The gateway performs mapping as a series of mapping rules handled in order. Mapping rules are written in a To <- From style. Or more simply put {desired key} :{current key}.
+Okey, lets take a look at the most commonly used example api, [petstore](https://petstore.swagger.io/#/pet/findPetsByStatus) and a basic object.
 
-### Simple mapping
 
-In its simplest form, a mapping consists of changing the position of a value within an object. A simple mapping does this mutation in To <- From order. Or in other words, you describe the object you want using the object (or other data) you have.
-
-So let's see a simple mapping rule with a tree object like this
 
 ```json
 {
   "id":"0d671e30-04af-479a-926a-5e7044484171",
-  "name":"The big white tree",
-  "description": "Chestnut", 
-  "location":"Orvil’s farm"
+  "name":"doggie",
+  "status": "available"
 }
 ```
 
-Let's say we need to move the data in the `description` field to a `species` field to free up the description field for more generic data. Which we then also want to fill. In short, move a value to a new position and insert a new value in the old position. We can do that with the following two mapping rules. You can also set new data if a key is not found as seen here with description:
+Now lets say we want to move the status into a sub object called meta data, like this
 
 ```json
 {
-   "name": "A simple mapping",
-   "description": "This mapping changes the position of a value within an object",
-   "mapping": {
-       "species": "description",
-       "description": "This is the tree that granny planted when she and gramps got married"
-   }
+  "id":"0d671e30-04af-479a-926a-5e7044484171",
+  "name":"doggie",
+  "metadata":{
+     "status": "available"
+  }
 }
 ```
+
+Then we need to create a mapping that does two things
+Copy the property to a new location trough mapping
+Unset the property at the old location
 
 Which will give us
 
 ```json
 {
-  "id":"0d671e30-04af-479a-926a-5e7044484171",
-  "name":"The big white tree",
-  "description": "This is the tree that granny planted when she and gramps got married", 
-  "location":"Orvil’s farm", 
-  "species":"Chestnut"
-}
-```
+   "name": "A simple mapping for doggie",
+   "description": "This mapping changes the position status propertyt",
+   "mapping": {
+       "metadata.status": "status"
+   }
+   "unset": [
+       "status"
+   ]
 
-So what happened under the hood? And why is one value executed as a movement rule and the second as a string? Let's take a look at the first rule
+
+}```
+
+
+
+
+So what happened under the hood? How is de status moved? Lets take a look at the first command set
 
 ```json
 {
-    "species":"description" 
+   "mapping": {
+       "metadata.status": "status"
+   }
 }
 ```
 
-Rules are carried out as a `To <- From` pair. In this case, the `species` has a `description` key. When interpreting what the description is, the mapping service has two options:
+Rules are carried out as a `To <- From` pair. In this case, the `metadata.status` key has a `status`  value. When interpreting what the description is, the mapping service has two options:
 
-* The value is either a dot notation array pointing to another position in the object (see dot notation). If so, then the value of that position is copied to the new position. (Under the hood the gateway uses [PHP dot notation to](https://github.com/adbario/php-dot-notation) achieve this result)
+* The value is either a dot notation array pointing to another position in the object (see (dot notation)[https://grasshopper.app/glossary/data-types/object-dot-notation/#:~:text=Dot%20notation%20is%20one%20way,%3A%205%2C%20%7D%3B%20console.]). If so, then the value of that position is copied to the new position. (Under the hood the gateway uses [PHP dot notation to](https://github.com/adbario/php-dot-notation) achieve this result)
 * The value is not a dot notation array to another position in the object (see dot notation), then the value is rendered as a [twig](https://twig.symfony.com/) template.
+
+> **Note**
+> - The key is ALWAY treated as a dot notation telling the service where to move the properties content to.
+- Mapping object MUST have a name, and SHOULD have a description
+- It is not necessary to declare every step of the array (e.g. metadata, metadata.status, metadata.status.name) just declaring the property where you want it will create the in between array key’s
+
 
 Keep in mind that dot notations have no maximum depth, so on object like
 
 ```json
 {
   "id":"0d671e30-04af-479a-926a-5e7044484171",
-  "name":"The big white tree",
-  "description": "Chestnut", 
-  "location":{
-	“”name”:"Orvil’s farm"
-}
+  "name":"doggie",
+  "metadata":{
+ 	 "status":{
+     		"name": "available"
+	}
+  }
 }
 ```
 
@@ -77,19 +91,17 @@ Could be mapped like
    "name": "A simple mapping",
    "description": "This mapping changes the position of a value within an object",
    "mapping": {
-       "location": "location.name",
+       "status": "metadata.status.name"
    }
-}
+}```
 
 To
 
 ```json
 {
   "id":"0d671e30-04af-479a-926a-5e7044484171",
-  "name":"The big white tree",
-  "description": "This is the tree that granny planted when she and gramps got married", 
-  "location":"Orvil’s farm", 
-  "species":"Chestnut"
+  "name":"doggie",
+  "status": "available"
 }
 ```
 
@@ -107,24 +119,40 @@ Another means of mapping is Twig mapping. Let's look at a more complex mapping e
 ```json
 {
   "id":"0d671e30-04af-479a-926a-5e7044484171",
-  "name":"The big white tree",
-  "description": "This is the tree that granny planted when she and gramps got married", 
-  "location":"Orvil’s farm", 
-  "species":"Chestnut"
+  "name":"doggie",
+  "status": "available"
 }
 ```
 
-Now the municipality opened up a county-wide tree register, and we would like to register our tree there. The municipality decided to move locations and species of the tree into metadata array data and thus expects an object like this
+Now the petstore decided that we would like to assign pets to an ille, there are three illes (green, blue and red) and every pet needs to be assigned randomly. That means that we need business logic in our mapping. fortynalty we can use [twig](https://twig.symfony.com/doc/2.x/) logic in our mapping by palccing it in  {{}} braces. that means that we can do this
+
+```json
+{
+   "name": "A simple mapping",
+   "description": "This mapping changes the position of a value within an object",
+   "mapping": {
+       "ille": "{{ random([green, blue , red]) }"
+   }
+}```
+
+To turn this
 
 ```json
 {
   "id":"0d671e30-04af-479a-926a-5e7044484171",
-  "name":"The big old tree",
-  "description": "This is the tree that granny planted when she and gramps got married", 
-  "metadata":{
-    "location":"Orvil’s farm", 
-    "species":"Chestnut"
-  }
+  "name":"doggie",
+  "status": "available"
+}
+```
+
+into this
+
+```json
+{
+  "id":"0d671e30-04af-479a-926a-5e7044484171",
+  "name":"doggie",
+  "status": "available",
+  "ille": "red"
 }
 ```
 
@@ -545,3 +573,5 @@ returns
 ### What if I can't map?
 
 Even with all the above options, it might be possible that the objects you are looking at are too different to map. In that case, don't look for mapping solutions. If objects A and B are too different, add them to the data layer and write a plugin to keep them in sync based on actions.
+
+

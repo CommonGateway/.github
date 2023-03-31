@@ -34,6 +34,10 @@ Governments and suppliers can contribute to this project in several ways:
 - *Submission of feature requests*. Anyone can submit a feature request, you do not need to be a member of the Steering Committee or have development capacity. Feature requests are discussed by the Steering Committee that determines whether and where they will appear on the [roadmap](/orgs/CommonGateway/projects/1/views/1). Suppliers may ask for an explanation or an estimate of hours.
 - *Contribution of code*. Each party is free to submit code to the project through a pull request. Please note that submitting code does not automatically lead to acceptance. Read the [Contributing](https://github.com/CommonGateway/.github/blob/main/CONTRIBUTING.md) for a description of the delivery process and associated requirements.
 
+## Documentation
+
+- [“Mapping”](https://github.com/CommonGateway/.github/blob/main/docs/mapping.md).
+
 ## Roadmap
 
 This project follows a public roadmap, which you can find under the corresponding board. No rights can be derived from the roadmap as it functions as an indication only. The product owner determines the roadmap in consultation with the Steering Committee. Parties that have good ideas about the roadmap are asked to submit them. See [“Contributions”](https://github.com/CommonGateway/.github/blob/main/CONTRIBUTING.md).
