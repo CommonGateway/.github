@@ -36,7 +36,25 @@ Governments and suppliers can contribute to this project in several ways:
 
 ## Documentation
 
-- [“Mapping”](https://github.com/CommonGateway/.github/blob/main/docs/mapping.md).
+- [API](https://github.com/CommonGateway/CoreBundle/blob/feature/documentation/docs/features/api.md)
+- [Architecture](https://github.com/CommonGateway/CoreBundle/blob/feature/documentation/docs/features/Architecture.md)
+- [Authentication](https://github.com/CommonGateway/CoreBundle/blob/feature/documentation/docs/features/Authentication.md)
+- [Authorisation](https://github.com/CommonGateway/CoreBundle/blob/feature/documentation/docs/features/Authorisation.md)
+- [Code_quality](https://github.com/CommonGateway/CoreBundle/blob/feature/documentation/docs/features/Code_quality.md)
+- [Commands](https://github.com/CommonGateway/CoreBundle/blob/feature/documentation/docs/features/Commands.md)
+- [Cronjobs](https://github.com/CommonGateway/CoreBundle/blob/feature/documentation/docs/features/Cronjobs.md)
+- [Design_desicions](https://github.com/CommonGateway/CoreBundle/blob/feature/documentation/docs/features/Design_desicions.md)
+- [Endpoints](https://github.com/CommonGateway/CoreBundle/blob/feature/documentation/docs/features/Endpoints.md)
+- [Events](https://github.com/CommonGateway/CoreBundle/blob/feature/documentation/docs/features/Events.md)
+- [Logging](https://github.com/CommonGateway/CoreBundle/blob/feature/documentation/docs/features/Logging.md)
+- [Mappings](https://github.com/CommonGateway/CoreBundle/blob/feature/documentation/docs/features/Mappings.md)
+- [Notifications](https://github.com/CommonGateway/CoreBundle/blob/feature/documentation/docs/features/Notifications.md)
+- [Plugins](https://github.com/CommonGateway/CoreBundle/blob/feature/documentation/docs/features/Plugins.md)
+- [Schemas](https://github.com/CommonGateway/CoreBundle/blob/feature/documentation/docs/features/Schemas.md)
+- [Security](https://github.com/CommonGateway/CoreBundle/blob/feature/documentation/docs/features/Security.md)
+- [Sources](https://github.com/CommonGateway/CoreBundle/blob/feature/documentation/docs/features/Sources.md)
+- [Synchronizations](https://github.com/CommonGateway/CoreBundle/blob/feature/documentation/docs/features/Synchronizations.md)
+- [Twig](https://github.com/CommonGateway/CoreBundle/blob/feature/documentation/docs/features/Twig.md)
 
 ## Roadmap
 
