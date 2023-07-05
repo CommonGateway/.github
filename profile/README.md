@@ -1,6 +1,6 @@
 # Welcome
 
-## 🙋‍♀️ What is Common Gateway
+## What is the Common Gateway?
 
 The Common Gateway is a further Dutch development of the European API Platform. API Platform is a project of [Les Tilleus](https://les-tilleuls.coop/en/technologies/api-platform) and, in itself, an extension of the Symfony framework. API Platform is a tool for delivering APIs based on standardized documentation and is used for various French and German government projects. Including [Digital state](https://digitalstate.io/), a precursor to Xroute, [GOV.UK](https://www.gov.uk/) and Common Ground. The project is now part of [joinup.eu](https://joinup.ec.europa.eu/) (the European equivalent of Common Ground).
 
