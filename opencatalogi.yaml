@@ -1,9 +1,19 @@
+publicorganisationYmlVersion: "0.1"
+
+name: 'CommonGateway'
+
+website: 'https://conduction.nl'
+
 contact:
-  email: ''
+  email: 'info@conduction.com'
   phone: ''
-name: ''
-publiccodeYmlVersion: '0.2'
-softwareOwned: []
-softwareSupported: []
-softwareUsed: []
-website: ''
+
+softwareUsed:
+  - 'https://github.com/CommonGateway/CoreBundle'
+
+softwareSupported:
+  - software: 'https://github.com/CommonGateway/CoreBundle'
+    type: 'maintenance' # The type of support provided
+    contact:
+      email: 'contact@publicorganisation.com'
+      phone: '+1234567890'
