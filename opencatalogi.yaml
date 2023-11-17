@@ -1,0 +1,257 @@
+contact:
+  email: ''
+  phone: ''
+name: ''
+publiccodeYmlVersion: '0.2'
+softwareOwned:
+- https://github.com/CommonGateway/CoreBundle
+- https://github.com/CommonGateway/XxllncZGWBundle
+- https://github.com/CommonGateway/KlantenBundle
+- https://github.com/CommonGateway/TemplateBundle
+- https://github.com/CommonGateway/PetStoreBundle
+- https://github.com/CommonGateway/ZaakTypeCatalogusAPI
+- https://github.com/CommonGateway/ZGWBundle
+- https://github.com/CommonGateway/CrawlerBundle
+- https://github.com/CommonGateway/ContactmomentenAPI
+- https://github.com/CommonGateway/KVKBundle
+- https://github.com/CommonGateway/FirstRegistrationBundle
+- https://github.com/CommonGateway/NotificatieAPI
+- https://github.com/CommonGateway/EmigratieVrijBRPBundle
+- https://github.com/CommonGateway/ZGWZdsBundle
+- https://github.com/CommonGateway/NaamgebruikVrijBRPBundle
+- https://github.com/CommonGateway/BRKBundle
+- https://github.com/CommonGateway/HuwelijkVrijBRPBundle
+- https://github.com/CommonGateway/SimXMLBundle
+- https://github.com/CommonGateway/GithubBundle
+- https://github.com/CommonGateway/WaardepapierenBundle
+- https://github.com/CommonGateway/ZdsAPI
+- https://github.com/CommonGateway/KlantenAPI
+- https://github.com/CommonGateway/SimXMLApi
+- https://github.com/CommonGateway/CustomerInteractionBundle
+- https://github.com/CommonGateway/HandelsRegisterBevragen
+- https://github.com/CommonGateway/UitrekselsVrijBRPBundle
+- https://github.com/CommonGateway/OverlijdenVrijBRPBundle
+- https://github.com/CommonGateway/XxllncOverigeObjecten
+- https://github.com/CommonGateway/TemplateAPI
+- https://github.com/CommonGateway/EersteInschrijvingVrijBRPBundle
+- https://github.com/CommonGateway/GeheimhoudingVrijBRPBundle
+- https://github.com/CommonGateway/AssentBundle
+- https://github.com/CommonGateway/SimXMLToZGWBundle
+- https://github.com/CommonGateway/BRPBundle
+- https://github.com/CommonGateway/ZgwToOpenBelastingBundle
+- https://github.com/CommonGateway/KissMedewerkersAPI
+- https://github.com/CommonGateway/WaardepapierenAPI
+- https://github.com/CommonGateway/NotificiationsBundle
+- https://github.com/CommonGateway/WooBundle
+- https://github.com/CommonGateway/GeboorteVrijBRPBundle
+- https://github.com/CommonGateway/ZaakRegistratieComponentAPI
+- https://github.com/CommonGateway/XxllncToZgwGateway
+- https://github.com/CommonGateway/HuwelijksplannerBundle
+- https://github.com/CommonGateway/ShopBundle
+- https://github.com/CommonGateway/ReferentielijstenBundle
+- https://github.com/CommonGateway/ZGWToVrijBRPBundle
+- https://github.com/CommonGateway/ZdsToZGWBundle
+- https://github.com/CommonGateway/product-website
+- https://github.com/CommonGateway/ZGWStuffBundle
+- https://github.com/CommonGateway/FormIOBundle
+- https://github.com/CommonGateway/CommunicationBundle
+- https://github.com/CommonGateway/CalendarBundle
+- https://github.com/CommonGateway/PetStoreAPI
+- https://github.com/CommonGateway/workflows
+- https://github.com/CommonGateway/TJunctionBundle
+- https://github.com/CommonGateway/BAGBundle
+- https://github.com/CommonGateway/BesluitenAPI
+- https://github.com/CommonGateway/HaalCentraalToStufBG
+- https://github.com/CommonGateway/.github
+- https://github.com/CommonGateway/DocumentenAPI
+- https://github.com/CommonGateway/SimTaxToZGWBundle
+- https://github.com/CommonGateway/ZGWToZDSBundle
+softwareSupported:
+- software: https://github.com/CommonGateway/CoreBundle
+  type: community
+- software: https://github.com/CommonGateway/XxllncZGWBundle
+  type: community
+- software: https://github.com/CommonGateway/KlantenBundle
+  type: community
+- software: https://github.com/CommonGateway/TemplateBundle
+  type: community
+- software: https://github.com/CommonGateway/PetStoreBundle
+  type: community
+- software: https://github.com/CommonGateway/ZaakTypeCatalogusAPI
+  type: community
+- software: https://github.com/CommonGateway/ZGWBundle
+  type: community
+- software: https://github.com/CommonGateway/CrawlerBundle
+  type: community
+- software: https://github.com/CommonGateway/ContactmomentenAPI
+  type: community
+- software: https://github.com/CommonGateway/KVKBundle
+  type: community
+- software: https://github.com/CommonGateway/FirstRegistrationBundle
+  type: community
+- software: https://github.com/CommonGateway/NotificatieAPI
+  type: community
+- software: https://github.com/CommonGateway/EmigratieVrijBRPBundle
+  type: community
+- software: https://github.com/CommonGateway/ZGWZdsBundle
+  type: community
+- software: https://github.com/CommonGateway/NaamgebruikVrijBRPBundle
+  type: community
+- software: https://github.com/CommonGateway/BRKBundle
+  type: community
+- software: https://github.com/CommonGateway/HuwelijkVrijBRPBundle
+  type: community
+- software: https://github.com/CommonGateway/SimXMLBundle
+  type: community
+- software: https://github.com/CommonGateway/GithubBundle
+  type: community
+- software: https://github.com/CommonGateway/WaardepapierenBundle
+  type: community
+- software: https://github.com/CommonGateway/ZdsAPI
+  type: community
+- software: https://github.com/CommonGateway/KlantenAPI
+  type: community
+- software: https://github.com/CommonGateway/SimXMLApi
+  type: community
+- software: https://github.com/CommonGateway/CustomerInteractionBundle
+  type: community
+- software: https://github.com/CommonGateway/HandelsRegisterBevragen
+  type: community
+- software: https://github.com/CommonGateway/UitrekselsVrijBRPBundle
+  type: community
+- software: https://github.com/CommonGateway/OverlijdenVrijBRPBundle
+  type: community
+- software: https://github.com/CommonGateway/XxllncOverigeObjecten
+  type: community
+- software: https://github.com/CommonGateway/TemplateAPI
+  type: community
+- software: https://github.com/CommonGateway/EersteInschrijvingVrijBRPBundle
+  type: community
+- software: https://github.com/CommonGateway/GeheimhoudingVrijBRPBundle
+  type: community
+- software: https://github.com/CommonGateway/AssentBundle
+  type: community
+- software: https://github.com/CommonGateway/SimXMLToZGWBundle
+  type: community
+- software: https://github.com/CommonGateway/BRPBundle
+  type: community
+- software: https://github.com/CommonGateway/ZgwToOpenBelastingBundle
+  type: community
+- software: https://github.com/CommonGateway/KissMedewerkersAPI
+  type: community
+- software: https://github.com/CommonGateway/WaardepapierenAPI
+  type: community
+- software: https://github.com/CommonGateway/NotificiationsBundle
+  type: community
+- software: https://github.com/CommonGateway/WooBundle
+  type: community
+- software: https://github.com/CommonGateway/GeboorteVrijBRPBundle
+  type: community
+- software: https://github.com/CommonGateway/ZaakRegistratieComponentAPI
+  type: community
+- software: https://github.com/CommonGateway/XxllncToZgwGateway
+  type: community
+- software: https://github.com/CommonGateway/HuwelijksplannerBundle
+  type: community
+- software: https://github.com/CommonGateway/ShopBundle
+  type: community
+- software: https://github.com/CommonGateway/ReferentielijstenBundle
+  type: community
+- software: https://github.com/CommonGateway/ZGWToVrijBRPBundle
+  type: community
+- software: https://github.com/CommonGateway/ZdsToZGWBundle
+  type: community
+- software: https://github.com/CommonGateway/product-website
+  type: community
+- software: https://github.com/CommonGateway/ZGWStuffBundle
+  type: community
+- software: https://github.com/CommonGateway/FormIOBundle
+  type: community
+- software: https://github.com/CommonGateway/CommunicationBundle
+  type: community
+- software: https://github.com/CommonGateway/CalendarBundle
+  type: community
+- software: https://github.com/CommonGateway/PetStoreAPI
+  type: community
+- software: https://github.com/CommonGateway/workflows
+  type: community
+- software: https://github.com/CommonGateway/TJunctionBundle
+  type: community
+- software: https://github.com/CommonGateway/BAGBundle
+  type: community
+- software: https://github.com/CommonGateway/BesluitenAPI
+  type: community
+- software: https://github.com/CommonGateway/HaalCentraalToStufBG
+  type: community
+- software: https://github.com/CommonGateway/.github
+  type: community
+- software: https://github.com/CommonGateway/DocumentenAPI
+  type: community
+- software: https://github.com/CommonGateway/SimTaxToZGWBundle
+  type: community
+- software: https://github.com/CommonGateway/ZGWToZDSBundle
+  type: community
+softwareUsed:
+- https://github.com/CommonGateway/CoreBundle
+- https://github.com/CommonGateway/XxllncZGWBundle
+- https://github.com/CommonGateway/KlantenBundle
+- https://github.com/CommonGateway/TemplateBundle
+- https://github.com/CommonGateway/PetStoreBundle
+- https://github.com/CommonGateway/ZaakTypeCatalogusAPI
+- https://github.com/CommonGateway/ZGWBundle
+- https://github.com/CommonGateway/CrawlerBundle
+- https://github.com/CommonGateway/ContactmomentenAPI
+- https://github.com/CommonGateway/KVKBundle
+- https://github.com/CommonGateway/FirstRegistrationBundle
+- https://github.com/CommonGateway/NotificatieAPI
+- https://github.com/CommonGateway/EmigratieVrijBRPBundle
+- https://github.com/CommonGateway/ZGWZdsBundle
+- https://github.com/CommonGateway/NaamgebruikVrijBRPBundle
+- https://github.com/CommonGateway/BRKBundle
+- https://github.com/CommonGateway/HuwelijkVrijBRPBundle
+- https://github.com/CommonGateway/SimXMLBundle
+- https://github.com/CommonGateway/GithubBundle
+- https://github.com/CommonGateway/WaardepapierenBundle
+- https://github.com/CommonGateway/ZdsAPI
+- https://github.com/CommonGateway/KlantenAPI
+- https://github.com/CommonGateway/SimXMLApi
+- https://github.com/CommonGateway/CustomerInteractionBundle
+- https://github.com/CommonGateway/HandelsRegisterBevragen
+- https://github.com/CommonGateway/UitrekselsVrijBRPBundle
+- https://github.com/CommonGateway/OverlijdenVrijBRPBundle
+- https://github.com/CommonGateway/XxllncOverigeObjecten
+- https://github.com/CommonGateway/TemplateAPI
+- https://github.com/CommonGateway/EersteInschrijvingVrijBRPBundle
+- https://github.com/CommonGateway/GeheimhoudingVrijBRPBundle
+- https://github.com/CommonGateway/AssentBundle
+- https://github.com/CommonGateway/SimXMLToZGWBundle
+- https://github.com/CommonGateway/BRPBundle
+- https://github.com/CommonGateway/ZgwToOpenBelastingBundle
+- https://github.com/CommonGateway/KissMedewerkersAPI
+- https://github.com/CommonGateway/WaardepapierenAPI
+- https://github.com/CommonGateway/NotificiationsBundle
+- https://github.com/CommonGateway/WooBundle
+- https://github.com/CommonGateway/GeboorteVrijBRPBundle
+- https://github.com/CommonGateway/ZaakRegistratieComponentAPI
+- https://github.com/CommonGateway/XxllncToZgwGateway
+- https://github.com/CommonGateway/HuwelijksplannerBundle
+- https://github.com/CommonGateway/ShopBundle
+- https://github.com/CommonGateway/ReferentielijstenBundle
+- https://github.com/CommonGateway/ZGWToVrijBRPBundle
+- https://github.com/CommonGateway/ZdsToZGWBundle
+- https://github.com/CommonGateway/product-website
+- https://github.com/CommonGateway/ZGWStuffBundle
+- https://github.com/CommonGateway/FormIOBundle
+- https://github.com/CommonGateway/CommunicationBundle
+- https://github.com/CommonGateway/CalendarBundle
+- https://github.com/CommonGateway/PetStoreAPI
+- https://github.com/CommonGateway/workflows
+- https://github.com/CommonGateway/TJunctionBundle
+- https://github.com/CommonGateway/BAGBundle
+- https://github.com/CommonGateway/BesluitenAPI
+- https://github.com/CommonGateway/HaalCentraalToStufBG
+- https://github.com/CommonGateway/.github
+- https://github.com/CommonGateway/DocumentenAPI
+- https://github.com/CommonGateway/SimTaxToZGWBundle
+- https://github.com/CommonGateway/ZGWToZDSBundle
+website: ''
