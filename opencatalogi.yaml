@@ -1,7 +1,9 @@
 contact:
-  email: ''
-  phone: ''
-name: ''
+  email: 'info@conduction.nl'
+  phone: '012-3456789'
+name: 'Common Gateway'
+description: 'The common gateway organisation'
+logo: 'https://avatars.githubusercontent.com/u/46676163?s=400&u=dad0eb014a0b96db1274bde41bd477b767f94c2d&v=4' 
 publiccodeYmlVersion: '0.2'
 softwareOwned:
 - https://github.com/CommonGateway/CoreBundle
