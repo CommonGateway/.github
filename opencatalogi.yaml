@@ -32,12 +32,14 @@ softwareOwned:
 - https://github.com/CommonGateway/HuwelijkVrijBRPBundle
 - https://github.com/CommonGateway/HuwelijksplannerBundle
 - https://github.com/CommonGateway/KVKBundle
+- https://github.com/CommonGateway/KissBundle
 - https://github.com/CommonGateway/KissMedewerkersAPI
 - https://github.com/CommonGateway/KlantenAPI
 - https://github.com/CommonGateway/KlantenBundle
 - https://github.com/CommonGateway/NaamgebruikVrijBRPBundle
 - https://github.com/CommonGateway/NotificatieAPI
-- https://github.com/CommonGateway/NotificiationsBundle
+- https://github.com/CommonGateway/NotificationsZGWBundle
+- https://github.com/CommonGateway/OpenBelastingBundle
 - https://github.com/CommonGateway/OverlijdenVrijBRPBundle
 - https://github.com/CommonGateway/PetStoreAPI
 - https://github.com/CommonGateway/PetStoreBundle
@@ -122,6 +124,8 @@ softwareSupported:
   type: community
 - software: https://github.com/CommonGateway/KVKBundle
   type: community
+- software: https://github.com/CommonGateway/KissBundle
+  type: community
 - software: https://github.com/CommonGateway/KissMedewerkersAPI
   type: community
 - software: https://github.com/CommonGateway/KlantenAPI
@@ -132,7 +136,9 @@ softwareSupported:
   type: community
 - software: https://github.com/CommonGateway/NotificatieAPI
   type: community
-- software: https://github.com/CommonGateway/NotificiationsBundle
+- software: https://github.com/CommonGateway/NotificationsZGWBundle
+  type: community
+- software: https://github.com/CommonGateway/OpenBelastingBundle
   type: community
 - software: https://github.com/CommonGateway/OverlijdenVrijBRPBundle
   type: community
@@ -223,12 +229,14 @@ softwareUsed:
 - https://github.com/CommonGateway/HuwelijkVrijBRPBundle
 - https://github.com/CommonGateway/HuwelijksplannerBundle
 - https://github.com/CommonGateway/KVKBundle
+- https://github.com/CommonGateway/KissBundle
 - https://github.com/CommonGateway/KissMedewerkersAPI
 - https://github.com/CommonGateway/KlantenAPI
 - https://github.com/CommonGateway/KlantenBundle
 - https://github.com/CommonGateway/NaamgebruikVrijBRPBundle
 - https://github.com/CommonGateway/NotificatieAPI
-- https://github.com/CommonGateway/NotificiationsBundle
+- https://github.com/CommonGateway/NotificationsZGWBundle
+- https://github.com/CommonGateway/OpenBelastingBundle
 - https://github.com/CommonGateway/OverlijdenVrijBRPBundle
 - https://github.com/CommonGateway/PetStoreAPI
 - https://github.com/CommonGateway/PetStoreBundle
